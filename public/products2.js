@@ -173,4 +173,11 @@ if (loginDisplay !== null) {
 let countItem = localStorage.getItem("countItem") || 0;
 document.getElementById("basketCount").innerText = countItem;
 
+
 }
+
+let modallogin = document.getElementById("modallogin")
+
+let username = JSON.parse(localStorage.getItem("username"));
+
+modallogin.innerHTML = username;

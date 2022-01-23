@@ -230,9 +230,11 @@ async function Register(){
          
          modalbox.style.display = "none";
          let toke=data.token;
+         let username =  data.user.name;
          let userId = data.user._id;
          localStorage.setItem("token", JSON.stringify(toke))
          localStorage.setItem("userId", JSON.stringify(userId));
+         localStorage.setItem("username", JSON.stringify(username));
         
         
         // alert("sign in sucess")

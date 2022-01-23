@@ -213,7 +213,11 @@ function totalfunc(item, cart) {
 
 }
 
+let modallogin = document.getElementById("modallogin")
 
+let username = JSON.parse(localStorage.getItem("username"));
+
+modallogin.innerHTML = username;
 
 
 
