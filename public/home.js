@@ -1,9 +1,11 @@
+
+
 let home_content = document.querySelector("#home_content");
 home_content.addEventListener("click", function () {
     window.location.href = "/story_page";
 })
 
-// const { json } = require("body-parser")
+
 
 
 
@@ -178,6 +180,7 @@ async function Register(){
    
     let data =await response.json();
     console.log("data", data)
+    alert(data.message);
     modalbox1.style.display = "none";
     // if(data.error==true){
     //     alert(data.message)
@@ -221,162 +224,19 @@ async function Register(){
         let data=await response.json();
         console.log("data",data);
      
-         alert(data.message);
+        alert(data.message);
+        
          modallogin.innerHTML=data.user.name;
          
          modalbox.style.display = "none";
+         let toke=data.token;
+         let userId = data.user._id;
+         localStorage.setItem("token", JSON.stringify(toke))
+         localStorage.setItem("userId", JSON.stringify(userId));
         
         
         // alert("sign in sucess")
         }
 // backend end---------------------------------------------------------
 
-
-
-
-
-// var users = JSON.parse(localStorage.getItem("usersignupdta")) || []
-
-// // readsignup data values
-
-// let signname = document.getElementById("signname");
-// let signemail = document.getElementById("signemail");
-// let signpassword = document.getElementById("signpassword")
-
-// let signname1 = document.getElementById("signname1");
-// let signemail1 = document.getElementById("signemail1");
-// let signpassword1 = document.getElementById("signpassword1")
-
-
-// // signupbutton
-// let createaccount = document.getElementById("createaccount")
-// let createaccount1 = document.getElementById("createaccount1")
-// // loginbutton
-// let loginbtn = document.getElementById("loginbtn")
-
-// // signup call function
-// createaccount.addEventListener("click", signupdata)
-// createaccount1.addEventListener("click", signupdata1)
-// // login call function
-// loginbtn.addEventListener("click", logindata)
-
-
-
-
-// function signupdata(e) {
-//     e.preventDefault()
-//     // console.log("hai")
-//     if (signname.value == "" || signemail.value == "" || signpassword.value == "") {
-//         alert("invalid credentials")
-//     } else {
-//         let userdetails = {
-
-//             name: signname.value,
-//             email: signemail.value,
-//             password: signpassword.value
-//         }
-//         users.push(userdetails)
-//         console.log(users)
-//         localStorage.setItem("usersignupdta", JSON.stringify(users))
-//         checkuserdata(users)
-//     }
-
-
-// }
-
-// function signupdata1(e) {
-//     e.preventDefault()
-//     // console.log("hai")
-//     if (signname1.value == "" || signemail1.value == "" || signpassword1.value == "") {
-//         alert("invalid credentials")
-//     } else {
-//         let userdetails = {
-
-//             name: signname1.value,
-//             email: signemail1.value,
-//             password: signpassword1.value
-//         }
-//         users.push(userdetails)
-//         console.log(users)
-//         localStorage.setItem("usersignupdta", JSON.stringify(users))
-//         checkuserdata1(users)
-//     }
-
-
-// }
-
-
-// function logindata(e) {
-//     e.preventDefault()
-//     let count = 0;
-//     let inputemail = document.getElementById("inputemail").value;
-//     let inputpass = document.getElementById("inputpass").value;
-
-//     for (let i = 0; i < users.length; i++) {
-//         if (users[i].email !== inputemail || users[i].password !== inputpass) {
-//             count++;
-//             if (count == users.length) {
-//                 alert("Login not Successfully");
-//             }
-//         } else {
-
-//             modallogin.innerHTML = users[i].name;
-//             localStorage.setItem("loginDisplay", users[i].name);
-//             modalbox.style.display = "none";
-//             let countItem = localStorage.getItem("countItem") || 0;
-//             document.getElementById("basketCount").innerText = countItem;
-
-//         }
-
-//     }
-
-// }
-
-
-
-
-
-
-// function checkuserdata(users) {
-
-//     users.forEach(ele => {
-
-//         if (ele.name == signname.value && ele.password == signpassword.value) {
-
-//             // modallogin.innerHTML=ele.name;
-//             modalbox1.style.display = "none";
-//         }
-//     });
-// }
-
-
-
-// function checkuserdata1(users) {
-
-//     users.forEach(ele => {
-
-//         if (ele.name == signname1.value && ele.password == signpassword1.value) {
-
-//             // modallogin.innerHTML=ele.name;
-//             modalbox2.style.display = "none";
-//         }
-//     });
-// }
-
-
-
-
-
-// // llllllllllllllllllllllllllllllllllllllllllllllllllllll
-
-// //LOGIN
-// let loginDisplay = localStorage.getItem("loginDisplay") || null;
-// console.log(loginDisplay);
-// if (loginDisplay !== null) {
-//     document.getElementById("modallogin").innerHTML = loginDisplay;
-// }
-
-// //BASKET
-// let countItem = localStorage.getItem("countItem") || 0;
-// document.getElementById("basketCount").innerText = countItem;
 

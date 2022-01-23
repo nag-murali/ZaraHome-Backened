@@ -1,6 +1,7 @@
 // var dellocal =JSON.parse ( localStorage.getItem("Delivery"));
 // var billlocal =JSON.parse ( localStorage.getItem("Billing"));
- var userid_cartpage = "61ea74acf936c55301d7c7b5"
+
+ var userid_cartpage = JSON.parse( localStorage.getItem("userId") );
   async function getData () {
    
          let response = await fetch(`/address/${userid_cartpage}`);

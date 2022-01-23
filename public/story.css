@@ -12,9 +12,9 @@
         #navB {
             top: 0;
             left: 0;
-            border: 1px solid transparent;
+            border: 1rem solid transparent;
             width: 100%;
-            height: 90px;
+            height: 90rem;
             position: sticky;
             transition: 0.5s;
         }
@@ -24,7 +24,7 @@
         }
 
         #logo {
-            border: 1px solid transparent;
+            border: 1rem solid transparent;
             width: 23%;
             height: 80%;
             margin-top: 2%;
@@ -35,14 +35,14 @@
             width: 20%;
             height: 40%;
             display: inline-block;
-            border: 1px solid transparent;
+            border: 1rem solid transparent;
             position: absolute;
-            left: 60px;
+            left: 60rem;
             transition: left 0.7s ease;
         }
         #bar{
             vertical-align: top;
-            margin-top: 10px;
+            margin-top: 10rem;
             transition: 0.3s;
             display: inline-block;
         }
@@ -51,14 +51,14 @@
             color: white;
         }
         #logo:hover > #img1{
-            left: 10px;
+            left: 10rem;
         }
 
         #sear {
             display: inline-block;
             width: 17%;
             height: 31%;
-            border: 1px solid transparent;
+            border: 1rem solid transparent;
             vertical-align: top;
             margin-top: 2%;
             margin-left: 25%;
@@ -66,7 +66,7 @@
 
         #sear>div {
             font-family: 'Poppins', sans-serif;
-            font-size: 18px;
+            font-size: 18rem;
             display: inline-block;
         }
 
@@ -75,39 +75,39 @@
         }
 
         #Rside {
-            border: 1px solid transparent;
+            border: 1rem solid transparent;
             display: inline-block;
             width: 20%;
             height: 25%;
             position: absolute;
-            right: 10px;
+            right: 10rem;
             margin-top: 2.5%;
             text-align: right;
         }
 
         #Rside>span {
-            margin: 15px;
+            margin: 15rem;
             font-family: 'Poppins', sans-serif;
-            font-size: 13px;
+            font-size: 13rem;
         }
 
         .middle {
             position: absolute;
             top: 100%;
-            left: -300px;
+            left: -300rem;
             font-family: 'Poppins', sans-serif;
             transition: left 0.5s ease;
             background-color: white;
         }
 
         #logo:hover .middle {
-            left: 0px;
+            left: 0rem;
         }
 
         .menu {
-            width: 300px;
-            height: 700px;
-            margin-top: 25px;
+            width: 300rem;
+            height: 700rem;
+            margin-top: 25rem;
             overflow: hidden;
         }
 
@@ -117,24 +117,24 @@
 
         .btn {
             display: block;
-            padding: 1px 20px;
+            padding: 1rem 20rem;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 18rem;
             background: white;
             color: rgb(48, 46, 46);
             position: relative;
-            letter-spacing: 1px;
+            letter-spacing: 1rem;
         }
 
         .ubtn {
             display: block;
-            padding: 1px 20px;
+            padding: 1rem 20rem;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 18rem;
             background: white;
             color: rgb(48, 46, 46);
             position: relative;
-            letter-spacing: 1px;
+            letter-spacing: 1rem;
         }
 
         .item a:hover {
@@ -157,19 +157,19 @@
 
         .smenu a {
             display: block;
-            padding: 1px 25px;
+            padding: 1rem 25rem;
             color: black;
-            font-size: 14px;
-            margin: 4px 15px;
+            font-size: 14rem;
+            margin: 4rem 15rem;
             position: relative;
         }
 
         .sbmenu>a {
             display: block;
-            padding: 1px 25px;
+            padding: 1rem 25rem;
             color: black;
-            font-size: 12px;
-            margin: 4px 40px;
+            font-size: 12rem;
+            margin: 4rem 40rem;
             position: relative;
         }
 
@@ -187,12 +187,12 @@
 
         .alast {
             font-weight: normal;
-            font-size: 15px;
+            font-size: 15rem;
         }
 
         .salast>a {
-            font-size: 13px;
-            padding: 0px 26px;
+            font-size: 13rem;
+            padding: 0rem 26rem;
         }
 
 
@@ -200,49 +200,49 @@
 
 
 .com{
-    margin-bottom: 150px;
+    margin-bottom: 150rem;
 }
 #com1{
-    margin-bottom: 150px;
+    margin-bottom: 150rem;
 }
 #com2{
-    margin-bottom: 150px;
+    margin-bottom: 150rem;
 }
 #bodypart{
-    /* margin-top: -90px; */
+    /* margin-top: -90rem; */
     background-color: #f7f7f7;
     
 }
 
 /* #topdiv{
-     border: 1px solid red;
+     border: 1rem solid red;
     width: 50%;
-    height: 400px;
+    height: 400rem;
     margin: auto;
 } */
 
 .topdivp1{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     /* position: relative; */
-    padding: 55px 0;
+    padding: 55rem 0;
     text-align: center;
     width: 50%;
-    /* height:400px; */
+    /* height:400rem; */
     margin: auto;
-    /* padding-bottom: 20px; */
+    /* padding-bottom: 20rem; */
 }
 .t1{
-    /* padding-top: 20px; */
-    font-size: 42px;
+    /* padding-top: 20rem; */
+    font-size: 42rem;
     font-weight: 500;
     font-family: 'Noto Serif Display', serif;
     /* color:black; */
-    margin-bottom: 22px;
-    margin-top: 15px;
+    margin-bottom: 22rem;
+    margin-top: 15rem;
     /* transform: scaleX(1.1); */
 }
 .t2{    
-    font-size: 18px;
+    font-size: 18rem;
     color:#777;
 }
 #of{
@@ -258,7 +258,7 @@ img{
 } 
 
 #two{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 25%;
     margin: auto;
 }
@@ -268,7 +268,7 @@ img{
 
 }
 #three{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 50%;
     margin: auto;
 }
@@ -283,15 +283,15 @@ img{
  
 }
 #four #four1{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 24%;
-    /* height: 400px; */
+    /* height: 400rem; */
     margin-left: 35%;
 }
 #four #four2{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 24%;
-    margin-left: 10px;
+    margin-left: 10rem;
     
 }
 #five{
@@ -304,7 +304,7 @@ img{
 } 
 
 .six{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 50%;
     margin: auto;
 }
@@ -317,33 +317,33 @@ img{
     display: flex;
 }
 .seven .seven1{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 24%;
-    /* height: 400px; */
+    /* height: 400rem; */
     margin-left: 35%;
 }
 .seven .seven2{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 24%;
-    margin-left: 10px;
+    margin-left: 10rem;
     
 }
 
 #eight{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20rem;
 }
 #eight1{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 52%;
     
 }
 #eight2{
-    /* border: 1px solid red; */
+    /* border: 1rem solid red; */
     width: 40%;
-    height: 500px;
-    margin-top: 150px;
+    height: 500rem;
+    margin-top: 150rem;
  
 }
 #nine{
@@ -359,16 +359,16 @@ img{
     margin:auto
 }
 #eleven{
-    border: 1px solid red;
+    border: 1rem solid red;
     width: 100%;
-    height: 200px;
+    height: 200rem;
 }
 
 
 #footer {
-    margin-top: 50px;
-    padding: 50px;
-    border-top: 1px dashed #ddd;
+    margin-top: 50rem;
+    padding: 50rem;
+    border-top: 1rem dashed #ddd;
 }
 #footer p {
     text-align: center;
@@ -376,38 +376,38 @@ img{
 }
 #foo_container {
     width: 50%;
-    margin: 0px auto;
-    padding: 20px 0 45px 0;
+    margin: 0rem auto;
+    padding: 20rem 0 45rem 0;
 }
  /* #############footer newsletter############# */
 #newsletter {
-    margin: 10px auto 0 auto;
-    padding: 2px;  
+    margin: 10rem auto 0 auto;
+    padding: 2rem;  
 }
 #foo_task {
     color: #888;
-    line-height: 1px;
+    line-height: 1rem;
     transform: scale(0.8, 0.9);
 }
 #foo_input {
     border: none;
     outline: none;
-    border-bottom: 1px solid #1e1e1e;
+    border-bottom: 1rem solid #1e1e1e;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0rem;
 }
 #foo_input:focus {
-    padding: 12px 0;
-    border-bottom: 2px solid #1e1e1e;
+    padding: 12rem 0;
+    border-bottom: 2rem solid #1e1e1e;
     transition:border-bottom .2s, padding .3s;
 }
 
 /* #############footer social############# */
 #foo_social {
-    margin : 60px auto;
+    margin : 60rem auto;
     width: 80%;
     display: flex;
-    gap: 10px;
+    gap: 10rem;
 }
 #foo_social p {
     color: #444;
@@ -419,7 +419,7 @@ img{
 .foo_social_icon {
     display: flex;
     gap: 5%;
-    padding: 25px 0;
+    padding: 25rem 0;
 }
 .foo_social_icon > div:hover {
     opacity: 0.6;
@@ -435,7 +435,7 @@ img{
 /* #############foo_about############# */
 #foo_about {
     display: flex;
-    padding: 0 40px;
+    padding: 0 40rem;
 }
 .foo_about_items {
     width: 33%;
@@ -443,21 +443,25 @@ img{
 .foo_about_header {
     text-decoration: underline;
     text-align: center;
-    line-height: 40px;
+    line-height: 40rem;
 }
 .foo_about_list {
     list-style-type: none;
     text-align: center;
 }
 .foo_about_list > li {
-    font-size: 10px;
+    font-size: 10rem;
     color: #777;
-    line-height: 20px;
+    line-height: 20rem;
     font-weight: 400;
     /* transform: scaleY(.9); */
-    letter-spacing:0.28px;
+    letter-spacing:0.28rem;
 }
 .foo_about_list > li:hover {
     text-decoration: underline;
     color: #222;
 }
+html {
+    font-size: 6.25%;
+  }
+  

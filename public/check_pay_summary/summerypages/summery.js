@@ -53,7 +53,8 @@ function changetotal() {
 }
 
 //function for adressess------------------->
-var userid_cartpage = "61ea74acf936c55301d7c7b5"
+var userid_cartpage = JSON.parse( localStorage.getItem("userId") );
+// var userid_cartpage = "61ea74acf936c55301d7c7b5"
 async function getData () {
  
        let response = await fetch(`/address/${userid_cartpage}`);
@@ -180,5 +181,5 @@ data.map( (item, index) => {
 // go to thank you page
 
 function thank() {
-    window.location.href = "../../thankyoupage/thanks.html";
+    window.location.href = "/thankyoupage";
 }

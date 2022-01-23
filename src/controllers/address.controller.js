@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const Address = require("../models/address.model.js")
+const authenticate = require("../middlewares/authenticate");
+
 
 
 router.get("/:id", async(req, res) => {
@@ -18,7 +20,7 @@ router.get("/:id", async(req, res) => {
     }
 });
 
-router.post("", async(req, res) => {
+router.post("", authenticate, async(req, res) => {
     console.log("in post ")
     console.log(req.body)
     try {

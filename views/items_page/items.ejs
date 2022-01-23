@@ -15,7 +15,8 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
-<body>
+<body onload="getData('<%= JSON.stringify(product) %>')">
+
     <div id="navB">
         <div id="logo">
             <div class="middle">
@@ -138,7 +139,8 @@
         </div>
         <div id="Rside">
             <span id="modallogin"><i style="padding-right: 8px;" class="far fa-user"></i>LOG IN</span>
-            <span style="margin-right:0;"><i style="padding-right: 8px;" class="fas fa-shopping-bag"></i></span><span style="margin-left:0" id="basketCount">0</span>
+            <span style="margin-right:0;"><i style="padding-right: 8px;" class="fas fa-shopping-bag"></i></span><span
+                style="margin-left:0" id="basketCount">0</span>
         </div>
     </div>
 
@@ -204,7 +206,7 @@
             <!-- SIZES WITH PRICE -->
             <div id="item_right_size_container">
                 <p id="size">Size</p>
-                <div class="item_size doable" onclick="updateContainer(item.sPrice)">
+                <div class="item_size doable">
                     <span class="bold">Single</span>
                     <span>(135 x 200 cm)</span>
                     <span class="size_price size_price_low">34</span>
@@ -214,7 +216,7 @@
                     <span>(150 x 220 cm)</span>
                     <span class="size_price size_price_low"></span>
                 </div>
-                <div class="item_size doable" onclick="updateContainer(item.sPrice)">
+                <div class="item_size doable">
                     <span class="bold">Single</span>
                     <span>(160 x 210 cm)</span>
                     <span class="size_price size_price_low"></span>
@@ -249,7 +251,7 @@
                     <span>(260 x 240 cm)</span>
                     <span class="size_price size_price_high"></span>
                 </div>
-                <div class="item_size doable" onclick="updateContainer(item.dPrice)">
+                <div class="item_size doable">
                     <span class="bold">Emperor</span>
                     <span>(290 x 260 cm)</span>
                     <span class="size_price size_price_high"></span>
@@ -305,13 +307,13 @@
                 <label for="javascript">Do not add filling</label>
             </div>
             <!-- BUTTON -->
-            <button id="addToBasket" onclick="displayBtn()">ADD TO BASKET</button>
+            <button id="addToBasket">ADD TO BASKET</button>
             <button id="goToBasket">PROCESS ORDER</button>
-            
+
             <!-- BELOW BUTTON -->
-            <p id="item_product_details" onclick="productDetalis()" class="below_btn">Product details</p>
+            <p id="item_product_details" class="below_btn">Product details</p>
             <div id="proDetails">
-                <div id="headerPro">Prodect Details <i onclick="proRemove()" class="fas fa-times fa-lg"></i></div>
+                <div class="headerPro">Product Details <i class="fas fa-times fa-lg"></i></div>
 
                 <div id="meas">
                     <div id="mt">MEASUREMENTS</div>
@@ -341,7 +343,8 @@
                     <div id="mt">CARE</div>
                     <hr>
                     <div><i class="fas fa-glass-whiskey"></i>MACHINE WASH UP TO 40°C/104°F GENTLE CYCLE</div>
-                    <div><i style="transform: rotate(180deg); padding: 0 0 0 5px;" class="fas fa-play"></i>DO NOT BLEACH
+                    <div><i style="transform: rotate(180deg); padding: 0 0 0 5px;" class="fas fa-play"></i>DO
+                        NOT BLEACH
                     </div>
                     <div><i class="fas fa-charging-station"></i>IRON UP TO 150°C/302°F</div>
                     <div><i class="far fa-times-circle"></i>DO NOT DRY CLEAN</div>
@@ -351,14 +354,15 @@
             </div>
             <p id="item_shipping_returns" onclick="deliveryRetun()" class="below_btn">shipping and returns</p>
             <div id="deliveryR">
-                <div id="headerPro">DELIVERY / RETURNS<i onclick="proDelivery()" class="fas fa-times fa-lg"></i></div>
+                <div class="headerPro">DELIVERY / RETURNS<i class="fas fa-times fa-lg"></i></div>
 
                 <div id="meas">
                     <div id="mt">DELIVERY</div>
                     <hr>
                     <div id="lt">Delivery methods may vary depending on the items added to your basket:</div>
                     <div style="font-weight: bold; text-decoration: underline;">STANDARD: 45.00 &euro;</div>
-                    <div style="font-size: 11px; padding-left: 5px;">The estimated delivery time will be between 7-10
+                    <div style="font-size: 11px; padding-left: 5px;">The estimated delivery time will be between
+                        7-10
                         working days, depending on the delivery address.</div>
                 </div>
                 <div id="meas">
@@ -390,20 +394,36 @@
                 <div id="foo_social_left">
                     <p>Follow us on</p>
                     <div class="foo_social_icon">
-                        <div><a href="https://www.facebook.com/zarahome" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111392.png" alt=""></a></div>
-                        <div><a href="https://www.instagram.com/zarahome/" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt=""></a></div>
-                        <div><a href="https://www.pinterest.es/zarahome/" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733622.png" alt=""></a></div>
-                        <div><a href="https://www.youtube.com/channel/UCrBndgD3vCicJ0nLRoKCCaA" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384086.png" alt=""></a></div>
-                        <div><a href="https://twitter.com/zarahome" target="blank"><img src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128212.png?token=exp=1639505038~hmac=305275f7cabc466e92e957cb4b11455f" alt=""></a></div>
-                        <div><a href="https://open.spotify.com/user/fbune3k41mta54xtdc3d8v7xu?si=FQQ6HDU7RZWT_yqDIVYAmw&nd=1" target="blank"><img src="https://cdn-icons.flaticon.com/png/512/717/premium/717421.png?token=exp=1639505062~hmac=e7663d5bb89631b0fb5818fd260e7496" alt=""></a></div>
+                        <div><a href="https://www.facebook.com/zarahome" target="blank"><img
+                                    src="https://cdn-icons-png.flaticon.com/512/2111/2111392.png" alt=""></a>
+                        </div>
+                        <div><a href="https://www.instagram.com/zarahome/" target="blank"><img
+                                    src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt=""></a></div>
+                        <div><a href="https://www.pinterest.es/zarahome/" target="blank"><img
+                                    src="https://cdn-icons-png.flaticon.com/512/733/733622.png" alt=""></a>
+                        </div>
+                        <div><a href="https://www.youtube.com/channel/UCrBndgD3vCicJ0nLRoKCCaA" target="blank"><img
+                                    src="https://cdn-icons-png.flaticon.com/512/1384/1384086.png" alt=""></a>
+                        </div>
+                        <div><a href="https://twitter.com/zarahome" target="blank"><img
+                                    src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128212.png?token=exp=1639505038~hmac=305275f7cabc466e92e957cb4b11455f"
+                                    alt=""></a></div>
+                        <div><a href="https://open.spotify.com/user/fbune3k41mta54xtdc3d8v7xu?si=FQQ6HDU7RZWT_yqDIVYAmw&nd=1"
+                                target="blank"><img
+                                    src="https://cdn-icons.flaticon.com/png/512/717/premium/717421.png?token=exp=1639505062~hmac=e7663d5bb89631b0fb5818fd260e7496"
+                                    alt=""></a></div>
                     </div>
-                    
+
                 </div>
                 <div id="foo_social_right">
                     <p>Download our app</p>
                     <div class="foo_social_icon foo_social_icon_right">
-                        <div><a href="https://apps.apple.com/es/app/zarahome-shop-online/id474175190" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt=""></a></div>
-                        <div><a href="https://play.google.com/store/apps/details?id=com.inditex.ecommerce.zarahome.android" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/152/152753.png" alt=""></a></div>
+                        <div><a href="https://apps.apple.com/es/app/zarahome-shop-online/id474175190"
+                                target="blank"><img src="https://cdn-icons-png.flaticon.com/512/731/731985.png"
+                                    alt=""></a></div>
+                        <div><a href="https://play.google.com/store/apps/details?id=com.inditex.ecommerce.zarahome.android"
+                                target="blank"><img src="https://cdn-icons-png.flaticon.com/512/152/152753.png"
+                                    alt=""></a></div>
                     </div>
                 </div>
             </div>
@@ -439,69 +459,10 @@
 
 </html>
 
+
+
+
+
+
 <script src="/items_page/items.js"></script>
 <script src="/items_page/size.js"></script>
-<!-- <script src="items_page/courosel.js"></script> -->
-<!-- <script>
-
-    let data =JSON.parse( localStorage.getItem("BAG"));
-    let countedItems =JSON.parse( localStorage.getItem("countItem"));
-    let subdiv = document.getElementById("subdiv");
-    let itemsdiv = document.getElementById("itemsdiv");
-
-    let htag = document.createElement("h3");
-       htag.innerHTML = countedItems + " " + "ITEMS";
-       let hrtag = document.createElement("hr");
-     headdiv.append(htag, hrtag);
-
-    function addpro() {
-        document.getElementById("addCart").style.right = "0px";
-        data.map( displayitems(data));
-    }
-    function addRemove() {
-        document.getElementById("addCart").style.right = "-400px";
-    }
-
-     
-    
-
-    //function to display
-
-    function displayitems(item){
-
-        let divv = document.createElement("div");
-        
-        divv.setAttribute("class", "lefrighdiv");
-
-        let imagediv = document.createElement("div");
-        imagediv.setAttribute("class", "leftdiv");
-        let image =  document.createElement("img");
-        image.src = item.img[0];
-        imagediv.append(image);
-
-        let rightdiv = document.createElement("div");
-        rightdiv.setAttribute("class", "rightdiv");
-
-        let nametag = document.createElement("h3");
-        nametag.innerHTML = item.name;
-
-        // let destag = document.createElement("p");
-        // destag.innerHTML = item.desc;
-
-        let reftag = document.createElement("p");
-        reftag = item.ref;
-
-        let pricetag = document.createElement("p");
-        pricetag.setAttribute("class", "pricettag")
-        pricetag.innerHTML = item.price + " " + "€ ";
-
-       
-
-        rightdiv.append(nametag, reftag, pricetag )
-   
-        divv.append(imagediv, rightdiv)
-            
-        itemsdiv.append(divv)
-    }
-</script> -->
-

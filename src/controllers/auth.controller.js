@@ -18,7 +18,7 @@ router.post("/reg",async (req, res)=> {
     user = await User.create(req.body);
     const token = newToken(user);
     console.log(user)
-     res.redirect("/home")
+     res.render("/");
     // return res.send({user:user,token:token});
  } catch (err) {
     return res.send({ message: err.message });
@@ -37,7 +37,8 @@ router.post("/log",async (req, res) => {
         .status(400)
         .send({ message: "Either Email or Password is incorrect" });
     const token = newToken(user);
-    return res.send({token:token,message:"login sucessfull"});
+    console.log(token)
+    return res.send({user : user , token:token,message:"login sucessfull"});
   } catch (err) {
     return res.status(500).send({ success:false,message: err.message });
   }

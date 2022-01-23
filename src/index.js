@@ -2,6 +2,7 @@ const express = require("express");
 const ejs = require("ejs");
 const productController = require("./controllers/product.controller");
 const addressController = require("./controllers/address.controller");
+const cartController = require("./controllers/cart.controller");
 
 const registerController= require("./controllers/auth.controller");
 
@@ -45,8 +46,14 @@ app.get("/paymentpage", (req, res) => {
 app.get("/summerypage", (req, res) => {
     res.render("check_pay_summary/summerypages/summery.ejs") 
 })
+
+app.get("/thankyoupage", (req, res) => {
+    res.render("thankyoupage/thanks.ejs") 
+})
 app.use("/products", productController);
 app.use("/address", addressController);
 app.use("/home",registerController);
+app.use("/carts", cartController);
+
 
 module.exports = app;

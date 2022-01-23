@@ -6,7 +6,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 14rem;
   color: #1e1e1e;
   font-family: Arial, "Lucida Sans", "Lucida Sans Unicode";
 }
@@ -14,9 +14,9 @@
 #navB {
   top: 0;
   left: 0;
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   width: 100%;
-  height: 160px;
+  height: 160rem;
   position: sticky;
   transition: 0.5s;
   z-index: 1;
@@ -27,7 +27,7 @@
 }
 
 #logo {
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   width: 23%;
   height: 50%;
   margin-top: 2%;
@@ -38,14 +38,14 @@
   width: 21%;
   height: 22%;
   display: inline-block;
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   position: absolute;
-  left: 60px;
+  left: 60rem;
   transition: left 0.7s ease;
 }
 #bar {
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 10rem;
   transition: 0.3s;
   display: inline-block;
 }
@@ -54,14 +54,14 @@
   color: white;
 }
 #logo:hover > #img1 {
-  left: 10px;
+  left: 10rem;
 }
 
 #sear {
   display: inline-block;
   width: 17%;
   height: 31%;
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   vertical-align: top;
   margin-top: 2%;
   margin-left: 25%;
@@ -69,7 +69,7 @@
 
 #sear > div {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 18rem;
   display: inline-block;
 }
 
@@ -78,30 +78,30 @@
 }
 
 #Rside {
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   display: inline-block;
   width: 20%;
   height: 25%;
   position: absolute;
-  right: 10px;
+  right: 10rem;
   margin-top: 2.5%;
   text-align: right;
 }
 
 #Rside > span {
-  margin: 15px;
+  margin: 15rem;
   font-family: "Poppins", sans-serif;
-  font-size: 13px;
+  font-size: 13rem;
 }
 #Rside2 {
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   position: absolute;
-  right: 0px;
-  top: 125px;
+  right: 0rem;
+  top: 125rem;
   width: 16.3%;
   height: 12%;
   font-family: "Poppins", sans-serif;
-  font-size: 10px;
+  font-size: 10rem;
 }
 
 /* 
@@ -125,68 +125,68 @@ display: flex;
 } */
 
 #filteritem {
-  border-left: 1px solid black;
-  width: 350px;
+  border-left: 1rem solid black;
+  width: 350rem;
   position: fixed;
   top: 0;
-  right: -400px;
-  min-height: 650px;
+  right: -400rem;
+  min-height: 650rem;
   background-color: white;
   transition: right 0.7s ease;
 }
 #byprice{
-  font-size: 20px;
+  font-size: 20rem;
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 10rem;
   text-align: center;
 }
 #filters{
-  margin-top: 16px;
+  margin-top: 16rem;
   font-family: sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 18rem;
 }
 #filternamebox{
-  border-bottom: 1px solid grey;
-  height:40px;
-  padding-left: 8px;
+  border-bottom: 1rem solid grey;
+  height:40rem;
+  padding-left: 8rem;
 }
 #filternamebox> i {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 23px;
+  top: 20rem;
+  right: 20rem;
+  font-size: 23rem;
 }
 
 #radiomargin{
   position: relative;
-  top:20px;
+  top:20rem;
   left: 23%;
 }
 
 .lablemargin{
-  margin-right: 40px;
-  font-size: 16px;
+  margin-right: 40rem;
+  font-size: 16rem;
 }
 
 /* filterpop end */
 .middle {
   position: absolute;
-  top: 115px;
-  left: -300px;
+  top: 115rem;
+  left: -300rem;
   font-family: "Poppins", sans-serif;
   transition: left 0.5s ease;
   background-color: white;
 }
 
 #logo:hover .middle {
-  left: 0px;
+  left: 0rem;
 }
 
 .menu {
-  width: 300px;
-  height: 700px;
+  width: 300rem;
+  height: 700rem;
   overflow: hidden;
 }
 
@@ -196,24 +196,24 @@ display: flex;
 
 .btn {
   display: block;
-  padding: 2px 20px;
+  padding: 2rem 20rem;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 18rem;
   background: white;
   color: rgb(48, 46, 46);
   position: relative;
-  /* letter-spacing: 1px; */
+  /* letter-spacing: 1rem; */
 }
 
 .ubtn {
   display: block;
-  padding: 1px 20px;
+  padding: 1rem 20rem;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 18rem;
   background: white;
   color: rgb(48, 46, 46);
   position: relative;
-  letter-spacing: 1px;
+  letter-spacing: 1rem;
 }
 
 .item a:hover {
@@ -236,19 +236,19 @@ display: flex;
 
 .smenu a {
   display: block;
-  padding: 1px 25px;
+  padding: 1rem 25rem;
   color: black;
-  font-size: 14px;
-  margin: 4px 15px;
+  font-size: 14rem;
+  margin: 4rem 15rem;
   position: relative;
 }
 
 .sbmenu > a {
   display: block;
-  padding: 1px 25px;
+  padding: 1rem 25rem;
   color: black;
-  font-size: 12px;
-  margin: 4px 40px;
+  font-size: 12rem;
+  margin: 4rem 40rem;
   position: relative;
 }
 
@@ -266,18 +266,18 @@ display: flex;
 
 .alast {
   font-weight: normal;
-  font-size: 15px;
+  font-size: 15rem;
 }
 
 .salast > a {
-  font-size: 13px;
-  padding: 0px 26px;
+  font-size: 13rem;
+  padding: 0rem 26rem;
 }
 
 #products_container {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px 10px;
+  gap: 30rem 10rem;
   width: 95%;
   margin: auto;
   justify-content: space-around;
@@ -294,7 +294,7 @@ display: flex;
 
 .item_image {
   width: 100%;
-  height: 380px;
+  height: 380rem;
 }
 
 .item_overlay {
@@ -314,7 +314,7 @@ display: flex;
 }
 
 .item_overlay_text {
-  font-size: 12px;
+  font-size: 12rem;
   text-align: center;
   color: #555;
   position: absolute;
@@ -336,7 +336,7 @@ display: flex;
 .product_item_title,
 .product_item_price {
   text-align: center;
-  margin: 14px 0;
+  margin: 14rem 0;
 }
 .product_item_title:hover {
   color: #aaa;
@@ -344,9 +344,9 @@ display: flex;
 }
 
 #footer {
-  margin-top: 50px;
-  padding: 50px;
-  border-top: 1px dashed #ddd;
+  margin-top: 50rem;
+  padding: 50rem;
+  border-top: 1rem dashed #ddd;
 }
 #footer p {
   text-align: center;
@@ -354,38 +354,38 @@ display: flex;
 }
 #foo_container {
   width: 50%;
-  margin: 0px auto;
-  padding: 20px 0 45px 0;
+  margin: 0rem auto;
+  padding: 20rem 0 45rem 0;
 }
 /* #############footer newsletter############# */
 #newsletter {
-  margin: 10px auto 0 auto;
-  padding: 2px;
+  margin: 10rem auto 0 auto;
+  padding: 2rem;
 }
 #foo_task {
   color: #888;
-  line-height: 1px;
+  line-height: 1rem;
   transform: scale(0.8, 0.9);
 }
 #foo_input {
   border: none;
   outline: none;
-  border-bottom: 1px solid #1e1e1e;
+  border-bottom: 1rem solid #1e1e1e;
   width: 100%;
-  padding-top: 0px;
+  padding-top: 0rem;
 }
 #foo_input:focus {
-  padding: 12px 0;
-  border-bottom: 2px solid #1e1e1e;
+  padding: 12rem 0;
+  border-bottom: 2rem solid #1e1e1e;
   transition: border-bottom 0.2s, padding 0.3s;
 }
 
 /* #############footer social############# */
 #foo_social {
-  margin: 60px auto;
+  margin: 60rem auto;
   width: 80%;
   display: flex;
-  gap: 10px;
+  gap: 10rem;
 }
 #foo_social p {
   color: #444;
@@ -397,7 +397,7 @@ display: flex;
 .foo_social_icon {
   display: flex;
   gap: 5%;
-  padding: 25px 0;
+  padding: 25rem 0;
 }
 .foo_social_icon > div:hover {
   opacity: 0.6;
@@ -413,7 +413,7 @@ display: flex;
 /* #############foo_about############# */
 #foo_about {
   display: flex;
-  padding: 0 40px;
+  padding: 0 40rem;
 }
 .foo_about_items {
   width: 33%;
@@ -421,19 +421,19 @@ display: flex;
 .foo_about_header {
   text-decoration: underline;
   text-align: center;
-  line-height: 40px;
+  line-height: 40rem;
 }
 .foo_about_list {
   list-style-type: none;
   text-align: center;
 }
 .foo_about_list > li {
-  font-size: 10px;
+  font-size: 10rem;
   color: #777;
-  line-height: 20px;
+  line-height: 20rem;
   font-weight: 400;
   /* transform: scaleY(.9); */
-  letter-spacing: 0.28px;
+  letter-spacing: 0.28rem;
 }
 .foo_about_list > li:hover {
   text-decoration: underline;
@@ -441,9 +441,9 @@ display: flex;
 }
 
 #footer {
-  margin-top: 50px;
-  padding: 50px;
-  border-top: 1px dashed #ddd;
+  margin-top: 50rem;
+  padding: 50rem;
+  border-top: 1rem dashed #ddd;
 }
 #footer p {
   text-align: center;
@@ -451,38 +451,38 @@ display: flex;
 }
 #foo_container {
   width: 50%;
-  margin: 0px auto;
-  padding: 20px 0 45px 0;
+  margin: 0rem auto;
+  padding: 20rem 0 45rem 0;
 }
 /* #############footer newsletter############# */
 #newsletter {
-  margin: 10px auto 0 auto;
-  padding: 2px;
+  margin: 10rem auto 0 auto;
+  padding: 2rem;
 }
 #foo_task {
   color: #888;
-  line-height: 1px;
+  line-height: 1rem;
   transform: scale(0.8, 0.9);
 }
 #foo_input {
   border: none;
   outline: none;
-  border-bottom: 1px solid #1e1e1e;
+  border-bottom: 1rem solid #1e1e1e;
   width: 100%;
-  padding-top: 0px;
+  padding-top: 0rem;
 }
 #foo_input:focus {
-  padding: 12px 0;
-  border-bottom: 2px solid #1e1e1e;
+  padding: 12rem 0;
+  border-bottom: 2rem solid #1e1e1e;
   transition: border-bottom 0.2s, padding 0.3s;
 }
 
 /* #############footer social############# */
 #foo_social {
-  margin: 60px auto;
+  margin: 60rem auto;
   width: 80%;
   display: flex;
-  gap: 10px;
+  gap: 10rem;
 }
 #foo_social p {
   color: #444;
@@ -494,7 +494,7 @@ display: flex;
 .foo_social_icon {
   display: flex;
   gap: 5%;
-  padding: 25px 0;
+  padding: 25rem 0;
 }
 .foo_social_icon > div:hover {
   opacity: 0.6;
@@ -510,7 +510,7 @@ display: flex;
 /* #############foo_about############# */
 #foo_about {
   display: flex;
-  padding: 0 40px;
+  padding: 0 40rem;
 }
 .foo_about_items {
   width: 33%;
@@ -518,21 +518,24 @@ display: flex;
 .foo_about_header {
   text-decoration: underline;
   text-align: center;
-  line-height: 40px;
+  line-height: 40rem;
 }
 .foo_about_list {
   list-style-type: none;
   text-align: center;
 }
 .foo_about_list > li {
-  font-size: 10px;
+  font-size: 10rem;
   color: #777;
-  line-height: 20px;
+  line-height: 20rem;
   font-weight: 400;
   /* transform: scaleY(.9); */
-  letter-spacing: 0.28px;
+  letter-spacing: 0.28rem;
 }
 .foo_about_list > li:hover {
   text-decoration: underline;
   color: #222;
+}
+html {
+  font-size: 6.25%;
 }
