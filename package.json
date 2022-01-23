@@ -1,0 +1,31 @@
+{
+  "name": "Clone-Zarahome2-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KundanPrasad11/Clone-Zarahome2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KundanPrasad11/Clone-Zarahome2/issues"
+  },
+  "homepage": "https://github.com/KundanPrasad11/Clone-Zarahome2#readme"
+}
