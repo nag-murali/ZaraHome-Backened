@@ -20,7 +20,7 @@ router.get("/:id", async(req, res) => {
     }
 });
 
-router.post("", authenticate, async(req, res) => {
+router.post("", async(req, res) => {
     console.log("in post ")
     console.log(req.body)
     try {

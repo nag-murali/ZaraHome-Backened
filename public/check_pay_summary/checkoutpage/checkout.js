@@ -264,7 +264,7 @@ localStorage.setItem("checkoutFlag", JSON.stringify(true));
               body: JSON.stringify(model_bil)
            })
      
-           const result_bil = await  bil_response.json() 
+           const result_bil = await  bil_response.json() ;
             console.log(result_bil)
            window.location.href = "/paymentpage";
         }
