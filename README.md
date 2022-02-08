@@ -1,10 +1,12 @@
 # ZaraHome-Backened
 
+
+Zara Home is a company that belongs to the Spanish Inditex group dedicated to the manufacturing of home textiles. It was created in 2003. It has around 408 stores in 44 countries. The company focuses on retailing various housewares.
+
 ![nord.png](https://cdn.shopify.com/s/files/1/0054/6665/2718/files/bvo-updated-logo-2.png?v=1624107079)
 
 ![Build Status](https://cdn.hashnode.com/res/hashnode/image/upload/v1639927185177/diTNoIr4q.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress)
 
-Bella Vita Organic, Inc. is an Indian Health care Organic store. Founded in 2005 by W. Verman and F. Walia, it originated as a Organic Products store and evolved into a full-line retailer with departments for Hair Care, Skin Care, Body Care, cosmetics, and fragrances..
 
 ---
 
@@ -16,15 +18,14 @@ Bella Vita Organic, Inc. is an Indian Health care Organic store. Founded in 2005
 - Browser LocalStorage for Frontend
 - MongoDB as Database
 - Express , EJS for Backend
-- 
-- [Heroku Deployment Link](https://bellavitaorganic-cloned.herokuapp.com)
-- 
+- [Heroku Deployment Link](https://zarahome.herokuapp.com/)
+
 
 ## Installing and Running
 <!-- <hr> -->
 To run this application on your local system, execute the following commands on your terminal/command line:
   
-  <code>git clone https://github.com/chamarthivamsidev/Bella_Vita_Organic_Clone_Backend</code>
+  <code>git clone https://github.com/nag-murali/ZaraHome-Backened.git</code>
   
   <code>npm i</code> 
   
@@ -33,18 +34,18 @@ To run this application on your local system, execute the following commands on 
   create a .env file with username and password of mongodb
   
 
-To start using the application, open the <a href="https://bellavitaorganic-cloned.herokuapp.com" target="_blank">[click here](https://bellavitaorganic-cloned.herokuapp.com)</a> 
+To start using the application, open the <a href="https://zarahome.herokuapp.com/" target="_blank">[click here](https://zarahome.herokuapp.com/)</a> 
 
 ## Features 
 <!-- --- -->
-- Login and logout functionality.
-- Navbar contains various product categories.
-- On product page particular category products with multiple sorting options displayed.
-- On Checkout page price is calculated dynamically.
+- Signin and Signup functionality
+- Users can use a coupon code only once in a single page.
+- Animation of flipping of card and modals.
+- Functionality to use single or both addresses.
 
-## Steps to navigate the website:
+<!-- ## Steps to navigate the website:
 <!-- <hr> -->
-- On the Landing Page header, user can click on the 'Admin' Icon to either Sign In or Create an Account
+<!-- - On the Landing Page header, user can click on the 'Admin' Icon to either Sign In or Create an Account
 - Once the user has logged in, they are taken back to the Landing Page.
 - On the top nav-bar, the user can navigate to the following categories: `All products`, to open the products page
 - On the Products Page 
@@ -59,7 +60,7 @@ To start using the application, open the <a href="https://bellavitaorganic-clone
   - Enter their Credit/Debit card details
   - Place the Order
 - On placing the Order, user will redirected to payment page
-- Once the payment is done user is will redirected to Home Page.
+- Once the payment is done user is will redirected to Home Page. --> -->
   
 
 ## Screenshots
@@ -102,8 +103,8 @@ A glimpse of our website
 
 ## Authors
 
-  1. [Chamarthi Vamsi](https://github.com/chamarthivamsidev) 
-  2. [Vaibhav Darvekar](https://github.com/vaibhav123-dev) 
-  3. [Mujaffar Husain](https://github.com/mujhusain) 
+  1. [Nagendra Muralidhar Pulla](https://github.com/nag-murali) 
+  2. [Kundan Kunmar ](https://github.com/vaibhav123-dev) 
+  3. [Shaik Akbar Basha](https://github.com/mujhusain) 
  
   
