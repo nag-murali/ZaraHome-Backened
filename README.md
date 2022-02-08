@@ -3,9 +3,9 @@
 
 Zara Home is a company that belongs to the Spanish Inditex group dedicated to the manufacturing of home textiles. It was created in 2003. It has around 408 stores in 44 countries. The company focuses on retailing various housewares.
 
-![nord.png](https://cdn.shopify.com/s/files/1/0054/6665/2718/files/bvo-updated-logo-2.png?v=1624107079)
+<!-- ![nord.png](https://cdn.shopify.com/s/files/1/0054/6665/2718/files/bvo-updated-logo-2.png?v=1624107079) -->
 
-![Build Status](https://cdn.hashnode.com/res/hashnode/image/upload/v1639927185177/diTNoIr4q.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress)
+![Build Status](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/dum%20home.png)
 
 
 ---
@@ -60,7 +60,7 @@ To start using the application, open the <a href="https://zarahome.herokuapp.com
   - Enter their Credit/Debit card details
   - Place the Order
 - On placing the Order, user will redirected to payment page
-- Once the payment is done user is will redirected to Home Page. --> -->
+- Once the payment is done user is will redirected to Home Page. --> 
   
 
 ## Screenshots
@@ -69,8 +69,22 @@ A glimpse of our website
 
 - On this page users can signup/sign-in based on whether the user is already registered or not.
 
-![Screenshot (115).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643862334980/Tc8N1bH7l.png)
-- The landing page where users cans see various categories and subcategories along with offers and discounts.
+![Screenshot (115).png](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/loginpage.png)
+
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/product%20page.png)
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/item%20page.png)
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/item%20page%20process%20order.png)
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/cart%20page.png)
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/checkout%20page.png)
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/payment%20page.png)
+
+![App Shot](https://github.com/nag-murali/readme_images/blob/main/back%20zara%20images/summary%20pages.png)
+<!-- - The landing page where users cans see various categories and subcategories along with offers and discounts.
 
 
 ![Screenshot (110).png](	https://cdn.hashnode.com/res/hashnode/image/upload/v1639927185177/diTNoIr4q.png?auto=compress)
@@ -98,7 +112,7 @@ A glimpse of our website
 
 ![Screenshot (122).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639929451111/naWajOWXD.png?auto=compress)
 ![Screenshot (122).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1639929567030/JsHdxOAAeM.png?auto=compress)
----
+--- -->
 
 
 ## Authors
